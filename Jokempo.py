@@ -1,4 +1,4 @@
-#Crie uma função que simule o jogo do jokempô, isto é, dada a entrada de dois jogadores, retorne a indicação de qual deles venceu.
+#Criar uma função que simule o jogo do jokempô, isto é, dada a entrada de dois jogadores, retornar a indicação de qual deles venceu.
 
 def Jokempo(JogadorA, JogadorB):
     if JogadorA == 'Pedra':
