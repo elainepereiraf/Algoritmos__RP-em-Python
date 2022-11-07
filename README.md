@@ -40,9 +40,7 @@ def VerificaVolumee(raio_balde, raio_esfera):
 
 from math import pi
 def VerificaVolumee(raio_balde, raio_esfera):
-  if raio_balde <= 0 or raio_esfera <= 0:
-    print('Medida Inadequada')
-  else:  
+  if raio_balde > 0 and raio_esfera > 0:
     vol_balde = 2*pi*raio_balde**3
     vol_esfera = 4/3*pi*raio_esfera**3
 
@@ -50,5 +48,6 @@ def VerificaVolumee(raio_balde, raio_esfera):
       print('O volume da esfera não cabe no balde')
     else:
       print('O volume da esfera cabe no balde')
-      
+  else:
+     print('Medida Inadequada')
       
